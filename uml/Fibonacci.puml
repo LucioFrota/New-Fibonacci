@@ -1,0 +1,14 @@
+@startuml
+class util.fibonacci.Fibonacci {
++ {static} List<Integer> fibonacciCalc(int)
+}
+
+class view.FbView {
++ {static} void start()
+}
+
+class Main {
++ {static} void main(String[])
+}
+
+@enduml
